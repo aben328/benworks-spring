@@ -21,6 +21,7 @@
 	<modules>
 		<module>benworks-spring-aop</module>
 		<module>benworks-spring-bean</module>
+		<module>benworks-spring-util</module>
 	</modules>
 
 
