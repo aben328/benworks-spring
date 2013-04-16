@@ -9,8 +9,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import benworks.pring.bean.factory.xml.people.People;
+
 /**
  * 实现ApplicationContextAware的实例会自动调用setApplicationContext()方法
+ * 
  * @author Ben
  */
 @RunWith(SpringJUnit4ClassRunner.class)

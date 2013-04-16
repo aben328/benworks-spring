@@ -1,1 +1,1 @@
-http\://blog.csdn.net/cutesource/schema/people=com.ben.spring.extensible.xml.people.PeopleNamespaceHandler
+http\://blog.csdn.net/cutesource/schema/people=benworks.pring.bean.factory.xml.people.PeopleNamespaceHandler
