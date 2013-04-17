@@ -24,6 +24,7 @@
 		<module>benworks-spring-util</module>
 		<module>benworks-spring-context</module>
 		<module>benworks-spring-ioc</module>
+		<module>benworks-spring-aspects</module>
 	</modules>
 
 
