@@ -23,6 +23,7 @@
 		<module>benworks-spring-bean</module>
 		<module>benworks-spring-util</module>
 		<module>benworks-spring-context</module>
+		<module>benworks-spring-ioc</module>
 	</modules>
 
 

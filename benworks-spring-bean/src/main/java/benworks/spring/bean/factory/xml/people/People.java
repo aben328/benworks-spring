@@ -1,5 +1,8 @@
 package benworks.spring.bean.factory.xml.people;
 
+/**
+ * @author http://blog.csdn.net/cutesource
+ */
 public class People {
 	private String id;
 	private String name;

@@ -5,6 +5,10 @@ import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.Element;
 
+
+/**
+ * @author http://blog.csdn.net/cutesource
+ */
 public class PeopleBeanDefinitionParser extends AbstractSingleBeanDefinitionParser {
 
 	protected Class<People> getBeanClass(Element element) {

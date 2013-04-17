@@ -2,7 +2,6 @@ package benworks.spring.bean.factory.xml.people;
 
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
-
 public class PeopleNamespaceHandler extends NamespaceHandlerSupport {
 
 	@Override
