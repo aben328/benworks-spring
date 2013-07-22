@@ -26,6 +26,7 @@
 		<module>benworks-spring-ioc</module>
 		<module>benworks-spring-aspects</module>
 		<module>benworks-spring-core</module>
+		<module>benworks-spring-webmvc</module>
 	</modules>
 
 
@@ -103,6 +104,12 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
+			<version>${spring.version}</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 			<optional>true</optional>
 		</dependency>
