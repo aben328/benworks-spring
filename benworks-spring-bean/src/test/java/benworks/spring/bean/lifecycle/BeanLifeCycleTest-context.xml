@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cutesource="http://blog.csdn.net/cutesource/schema/people"
+	xsi:schemaLocation=" 
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd ">
+
+	<bean id="car" class="benworks.spring.bean.lifecycle.Car"
+		init-method="myInit" destroy-method="myDestroy" p:brand="红旗CA72"
+		p:maxSpeed="200" />
+
+</beans>
